@@ -16,7 +16,7 @@ class MainWindow(QMainWindow):
     def button_clicked(self, s):
         button = QMessageBox.critical(
             self,
-            "Oh dear!",
+            "OMG!",
             "Something went very wrong.",
             buttons=QMessageBox.Discard | QMessageBox.NoToAll | QMessageBox.Ignore,
             defaultButton=QMessageBox.Discard,
